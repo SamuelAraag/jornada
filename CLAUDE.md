@@ -1,17 +1,17 @@
 # CLAUDE.md — jornada
 
-Repositório público. Cada submódulo aqui é privado, e a maioria é referenciada
-por hash, não por nome — a estrutura em si não deve revelar do que se trata
-cada área.
+Public repository. Every submodule here is private, and most are referenced
+by hash, not by name — the structure itself must not reveal what each area
+actually is.
 
-**Todas as regras e material de consulta vivem dentro de `proxy/`.** Antes de
-qualquer trabalho neste repositório, leia `proxy/CLAUDE.md`. Não assuma regra
-nenhuma a partir daqui; se não está em `proxy/`, pergunte.
+**All rules and reference material live inside `proxy/`.** Before doing any
+work in this repository, read `proxy/CLAUDE.md`. Do not assume any rule from
+this file alone; if it's not in `proxy/`, ask.
 
-## Resolução de hash
+## Hash resolution
 
-Nomes de pasta e de repositório aqui são hashes opacos de propósito — nunca
-documente aqui a que cada um corresponde. Sempre que for preciso saber o que
-um hash representa (repositório real, área da vida), a resposta está em
-`proxy/mapa.json`, nunca neste repositório. Resolva por lá, não hardcode o
-mapeamento em nenhum arquivo público.
+Folder and repository names here are opaque hashes on purpose — never
+document here what each one corresponds to. Whenever you need to know what a
+hash represents (the real repository, the life area), the answer lives in
+`proxy/mapa.json`, never in this repository. Resolve it there — do not
+hardcode the mapping in any public file.
