@@ -1,5 +1,10 @@
 # jornada
 
+## requirements
+
+- Node.js (any recent LTS) — runs `npm run init` and `npm run pull`
+- git, with SSH access configured for the private submodules
+
 ## first step
 
 ```
