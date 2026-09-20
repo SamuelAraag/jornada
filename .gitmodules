@@ -4,3 +4,6 @@
 [submodule "proxy"]
 	path = 00-proxy
 	url = git@github.com:SamuelAraag/proxy.git
+[submodule "2-ff4854dfba3b3193"]
+	path = 2-ff4854dfba3b3193
+	url = git@github.com:SamuelAraag/patrimonio.git
