@@ -1,7 +1,7 @@
 # CLAUDE.md — jornada
 
 Public repository. Every submodule here is private, and most are referenced
-by hash, not by name — the structure itself must not reveal what each area
+by hash, not by name - the structure itself must not reveal what each area
 actually is.
 
 **All rules and reference material live inside `proxy/`.** Before doing any
