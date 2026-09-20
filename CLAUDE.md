@@ -1,4 +1,4 @@
-# CLAUDE.md — jornada
+# CLAUDE.md - jornada
 
 Public repository. Every submodule here is private, and most are referenced
 by hash, not by name - the structure itself must not reveal what each area

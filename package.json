@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "init": "git submodule update --init 00-proxy && npm --prefix 00-proxy run init"
+    "init": "git submodule update --init 00-proxy && npm --prefix 00-proxy run init",
+    "pull": "node scripts/pull.js"
   }
 }
