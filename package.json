@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "init": "git submodule update --init proxy"
+    "init": "git submodule update --init 00-proxy"
   }
 }
