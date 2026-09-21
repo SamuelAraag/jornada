@@ -7,3 +7,6 @@
 [submodule "2-ff4854dfba3b3193"]
 	path = 2-ff4854dfba3b3193
 	url = git@github.com:SamuelAraag/patrimonio.git
+[submodule "3-560eeb0fd4543ba4"]
+	path = 3-560eeb0fd4543ba4
+	url = git@github.com:SamuelAraag/emagrecimento.git
