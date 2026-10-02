@@ -20,6 +20,10 @@ if (!fs.existsSync(MAPA_PATH)) {
 const mapa = JSON.parse(fs.readFileSync(MAPA_PATH, "utf8"));
 
 for (const entrada of mapa) {
+  if (!entrada.pathNoJornada) {
+    console.log(`${entrada.area} -> somente no proxy`);
+    continue;
+  }
   run(`git submodule update --init ${entrada.pathNoJornada}`);
   console.log(`${entrada.pathNoJornada} -> ${entrada.area}`);
 }
