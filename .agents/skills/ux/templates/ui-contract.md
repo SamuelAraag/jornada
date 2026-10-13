@@ -7,6 +7,11 @@ modelo mental completo da tela, que o agente pode implementar sem inventar compo
 
 Quem usa esta tela? (ex.: Administrador, Operador, Cliente final)
 
+## Plataforma e contexto de uso
+
+Onde a tela é usada? (desktop com mouse, celular com toque, os dois; navegador, PWA instalada)
+Existe projeto com tokens e catálogo, ou é tela nova sem projeto (`references/15` e `16`)?
+
 ## Objetivo
 
 O que esta tela permite que a persona faça? (uma frase)
@@ -42,6 +47,25 @@ Marcar quais se aplicam (ver `references/06-feedback-states.md` para a lista com
 
 Liste comportamentos específicos desta tela (ex.: "a busca deve atualizar a listagem sem
 perder os filtros", "o último administrador ativo não pode ser removido").
+
+## Navegação e voltar
+
+Como se chega a esta tela e para onde se sai? O que vai na URL? O que o botão Voltar faz em cada
+ponto (inclusive com modal, drawer ou visualizador aberto)?
+
+## Toque e gestos (se usada no celular)
+
+Quais gestos existem e qual é o botão equivalente de cada um? Onde fica a ação principal em
+relação ao polegar? Algum elemento encosta nas bordas e precisa de área segura?
+
+## Dados e formulário (se houver)
+
+Para cada campo: tipo, `inputmode`, `autocomplete`, obrigatório ou opcional, regra de validação e
+texto do erro.
+
+## Mídia (se houver)
+
+Quais imagens ou vídeos aparecem, com que proporção, e qual é o estado de carregando e de falha?
 
 ## Restrições / regras de negócio
 

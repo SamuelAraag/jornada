@@ -71,7 +71,12 @@ Nunca implemente apenas o estado visual inicial. Considere o ciclo completo da i
   não só numa área distante da tela.
 - `disabled` comunica **por quê** quando não for óbvio (tooltip ou texto).
 - Dispensa de modal: Esc, clique fora e botão de fechar, com o foco voltando para quem abriu.
-  Se o projeto já tem função que faz isso, não reimplemente.
+  Se o projeto já tem função que faz isso, não reimplemente. Clique fora não fecha quando há
+  dado digitado a perder nem quando o clique é no conteúdo de um visualizador de mídia
+  (ver `05-dialogs-and-destructive-actions.md`).
+- Movimento guiado pelo dedo (arrastar, dispensar) não usa as durações da tabela abaixo
+  enquanto o dedo está na tela: a posição acompanha o toque. As durações valem depois de soltar
+  (ver `12-touch-and-gestures.md`).
 - Em touch, ação de tabela não pode depender de `hover` para existir.
 
 ## Movimento
