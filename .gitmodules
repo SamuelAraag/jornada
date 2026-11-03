@@ -7,3 +7,6 @@
 [submodule "3-560eeb0fd4543ba4"]
 	path = 3-560eeb0fd4543ba4
 	url = git@github.com:SamuelAraag/emagrecimento.git
+[submodule "4-f3e8ea9afb6949a8c784e2867b41d2c4/songframe"]
+	path = 4-f3e8ea9afb6949a8c784e2867b41d2c4/songframe
+	url = git@github.com:SamuelAraag/SongFrame.git
